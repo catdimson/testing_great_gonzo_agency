@@ -1,0 +1,115 @@
+/*-- fonts --*/
+@font-face {
+  font-family: 'ocrf';
+  src: url('../fonts/ocrf-regularosf.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/*-- colors --*/
+/*-- sizes --*/
+/*-- owl-carousel --*/
+.owl-item {
+  text-align: center!important;
+}
+.owl-dots {
+  display: block!important;
+}
+.owl-theme .owl-dots .owl-dot {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 30px;
+  height: 30px;
+  background: #B3B3B3;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #2B2D33 !important;
+}
+.speaker {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.speaker__thumbnail {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  padding: 5px;
+  border: 7px #000000 dashed;
+  position: relative;
+  z-index: 5;
+}
+.speaker__image {
+  position: relative;
+}
+.speaker__image::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background: #FEE600;
+  border-radius: 50%;
+  z-index: 0;
+  left: 60px;
+  bottom: 30px;
+}
+.speaker__title {
+  color: #000000;
+  font-size: 23px;
+  margin-top: 15px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.speaker__organization {
+  color: #B3B3B3;
+  font-size: 23px;
+  line-height: 1;
+  margin-top: 0;
+  min-height: 50px;
+}
+/*-- main --*/
+.btn {
+  border-radius: 10px;
+  font-size: 23px;
+  border: none;
+  padding: 20px 80px;
+  margin: 10px;
+  font-family: 'ocrf', sans-serif;
+  font-stretch: condensed;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.btn--primary {
+  color: #000000;
+  background: #FEE600;
+}
+.btn--primary:hover {
+  background: #2B2D33;
+  color: white;
+  cursor: pointer;
+}
+.choice-line {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.speakers {
+  margin: 50px 0;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'ocrf', sans-serif;
+  color: #000000;
+  margin-bottom: 5px;
+  font-stretch: condensed;
+  letter-spacing: 2px;
+  font-size: 23px;
+  font-weight: 700;
+}
+.subtitle {
+  text-align: center;
+  font-family: 'ocrf', sans-serif;
+  margin-top: 5px;
+  font-size: 23px;
+  color: #000000;
+}
