@@ -358,7 +358,9 @@ label.label {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-
+  .speaker__image::after {
+    left: 40px;
+  }
 }
 @media (max-width: 767px) {
 
@@ -387,6 +389,16 @@ label.label {
   .mt-xs-30 {
     margin-top: 30px;
   }
+  .owl-theme .owl-dots .owl-dot {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  .speakers {
+    margin: 35px 0;
+  }
+  .speaker {
+    margin-bottom: 0;
+  }
 
 
   // footer
@@ -408,5 +420,15 @@ label.label {
     img {
       width: 35px;
     }
+  }
+}
+@media (max-width: 575px) {
+  .owl-carousel .owl-item img {
+    width: 200px;
+    margin: auto;
+  }
+  .speaker__image::after {
+    width: 200px;
+    left: 130px;
   }
 }
